@@ -1,6 +1,6 @@
 {
   "name": "form_audio_recorder",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A recorder which allows you to save a recording in a Budibase attachment field",
   "license": "MIT",
   "svelte": "index.js",
