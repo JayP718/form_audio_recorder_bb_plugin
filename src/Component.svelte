@@ -49,7 +49,7 @@
     fieldState = value?.fieldState;
     fieldApi = value?.fieldApi;
     console.log(value)
-    //typeof value?.fieldState?.value == null ? 0 : (sound_url = value?.fieldState?.value[0]?.url, stage=STAGES.DONE,icon=STAGES.DONE[1] ) ;
+    typeof value?.fieldState?.value == null ? null : (sound_url = value?.fieldState?.value[0]?.url, stage=STAGES.DONE,icon=STAGES.DONE[1] ) ;
   });
 
 
