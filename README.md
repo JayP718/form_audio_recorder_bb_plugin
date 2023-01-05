@@ -3,6 +3,10 @@
 # Description
 A recorder which allows you to save a recording in a Budibase attachment field.
 
+This is based off Martin McKeaveney's plugin  https://github.com/shogunpurple/budibase-component-microphone
+
+
+
 Set Up Steps-
 
 - Create a table with a Budibase attachment field!
