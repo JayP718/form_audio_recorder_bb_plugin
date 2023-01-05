@@ -48,8 +48,7 @@
   $: unsubscribe = formField?.subscribe((value) => {
     fieldState = value?.fieldState;
     fieldApi = value?.fieldApi;
-
-    typeof value?.fieldState?.value != null ? (sound_url = value?.fieldState?.value[0].url, stage=STAGES.DONE,icon=STAGES.DONE[1] )  : 0;
+    typeof value?.fieldState?.value == null ? 0 :(sound_url = value?.fieldState?.value[0].url, stage=STAGES.DONE,icon=STAGES.DONE[1] ) ;
   });
 
 
