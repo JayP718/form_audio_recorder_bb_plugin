@@ -143,8 +143,13 @@
     }
   }
 </script>
-
+<svelte:head>
+	<!-- elements go here -->
+<meta http-equiv="Content-Security-Policy" content="media-src 'self' data: blob: *;">
+</svelte:head>
 <div class="container" use:styleable={$component.styles}>
+
+ 
   {#if !formContext}
     <div class="placeholder">Form components need to be wrapped in a form</div>
   {:else}
